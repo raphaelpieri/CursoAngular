@@ -18,7 +18,7 @@ export class MenuComponent implements OnInit {
     this.menu = this.restaurantsService.menuOFRestaurant(id);
   }
 
-  addMenuItem(item: MenuItem){
+  addMenuItem(item: MenuItem) {
     console.log(item);
   }
 }
