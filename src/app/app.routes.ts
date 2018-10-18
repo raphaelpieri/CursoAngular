@@ -17,5 +17,5 @@ export const ROUTES: Routes = [
             {path: 'menu', component: MenuComponent},
             {path: 'reviews', component: ReviewsComponent}
     ]},
-    {path:'order', component: OrderComponent}
+    {path: 'order', component: OrderComponent}
 ];
